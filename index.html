@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Resume</title>
+</head>
+<body>
+   <h1>Hello World</h1>
+   <script>
+      // Ans 5 
+       console.log("Hello World");
+      // Ans 6 
+         function upperCase(str){
+            return console.log(str.toUpperCase());
+         }
+         upperCase("hello world")
+
+
+
+
+
+      // Ans 9
+         function sum(){
+            var sum=0 ;
+            for(let i = 0 ; i<=20;i++){
+               sum += i;
+            }
+            return console.log(sum);
+         };
+         sum();
+
+         //Case 2 
+         function sumRecursion(n){
+            if(n===0){
+               return n;
+            }
+            return (n+(sumRecursion(n-1))); 
+         }
+         sumRecursion(20);
+
+      // Ans 10 
+      var nameHome = ["nameHome1","nameHome2","nameHome3","nameHome4","nameHome5","nameHome6","nameHome7","nameHome8","nameHome9","nameHome10","nameHome11","nameHome12"];
+      function findLastName(){
+         return console.log(nameHome.slice(nameHome.length-10,nameHome.length));
+      }
+      findLastName();
+
+      
+   </script>
+</body>
+</html>
